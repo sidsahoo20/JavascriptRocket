@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Rocket Launch</title>
+	<link rel="stylesheet" type="text/css" href="rocket.css" />
+	<script type="text/javascript" src="rocket.js"></script>
+</head>
+<body class="initialPhase1">
+	<div class="leftSide">
+		<div class="phase1">
+			<h3>Rocket is ready for lauch</h3>
+			<a href="#" onclick="phaseChange()">Launch</a>
+		</div>
+
+		<div class="phase2">
+			<h3>Launching in...</h3>
+			<h3 id="countDown">10</h3>
+			<a href="#" onclick="document.location.reload(true)">Abort</a>
+		</div>
+
+		<div class="phase3">
+			<h3>Rocket launch is in process...Hope for the best</h3>			
+		</div>
+
+		<div class="phase4">
+			<h3>Congrats...It's a successful launch </h3>
+			<a href="#" onclick="document.location.reload(true)">Launch another one</a>
+		</div>
+
+		<div class="phase5">
+			<h3>There was some glitch. Best of luck for the next one.</h3>
+			<a href="#" onclick="document.location.reload(true)">Launch</a>
+		</div>
+
+    </div>
+
+	<div class="rightSide">
+		<div class="launchPad">
+
+		</div>
+
+		<div class="rocket">
+			
+		</div>
+	</div>
+
+</body>
+</html>>
