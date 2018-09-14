@@ -9,13 +9,13 @@
 	<div class="leftSide">
 		<div class="phase1">
 			<h3>Rocket is ready for lauch</h3>
-			<a href="#" onclick="phaseChange()">Launch</a>
+			<a href="#" onclick="phaseChange(2)">Launch</a>
 		</div>
 
 		<div class="phase2">
 			<h3>Launching in...</h3>
 			<h3 id="countDown">10</h3>
-			<a href="#" onclick="document.location.reload(true)">Abort</a>
+			<a href="#" onclick="phaseChange(1)">Abort</a>
 		</div>
 
 		<div class="phase3">
@@ -24,12 +24,12 @@
 
 		<div class="phase4">
 			<h3>Congrats...It's a successful launch </h3>
-			<a href="#" onclick="document.location.reload(true)">Launch another one</a>
+			<a href="#" onclick="phaseChange(1)">Launch another one</a>
 		</div>
 
 		<div class="phase5">
 			<h3>There was some glitch. Best of luck for the next one.</h3>
-			<a href="#" onclick="document.location.reload(true)">Launch</a>
+			<a href="#" onclick="phaseChange(1)">Launch</a>
 		</div>
 
     </div>

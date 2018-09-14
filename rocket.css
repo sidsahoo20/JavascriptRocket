@@ -62,12 +62,13 @@ body.initialPhase5 .phase5{display: block;}
 	transition: bottom 10000ms;
 }
 
-body.initialPhase3 .rocket, body.initialPhase3 {
+body.initialPhase3 .rocket, body.initialPhase4 .rocket {
 	bottom: 800px;
 }
 
-
-
+body.initialPhase1 .rocket{
+	transition: none;
+}
 
 
 
