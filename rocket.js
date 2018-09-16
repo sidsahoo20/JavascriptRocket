@@ -1,5 +1,4 @@
 var timer = null;
-//var countDownStart = 10;
 
 var phaseChange = function(phase) {
     document.body.className = "initialPhase"+phase;
@@ -13,12 +12,12 @@ var phaseChange = function(phase) {
             if (countDownStart <= 0) {
                 phaseChange(3);
             }
-        }, 500);
+        }, 1000);
     } else if (phase == 3) {
         var message = setTimeout(function(){
             var randumNum = Math.round(Math.random()*10);
             console.log(randumNum);
-            if (randumNum > 3) {
+            if (randumNum >= 5) {
                 phaseChange(4);
             }else{
                 phaseChange(5);
